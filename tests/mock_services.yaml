@@ -1,0 +1,45 @@
+services:
+  - name: Fisioterapia
+    price: 100
+    duration: 60
+    description: 
+      "Os fisioterapeutas utilizam diversas técnicas, como exercícios terapêuticos, terapia manual, eletroterapia e termoterapia, para ajudar os pacientes a recuperarem sua função física e qualidade de vida. Além do tratamento, a fisioterapia também desempenha um papel importante na prevenção de lesões e doenças, através de orientações sobre postura, ergonomia e hábitos saudáveis."
+    professionals:
+      - name: Ana Souza
+        availability:
+          - day: segunda-feira
+            slots: ["09:00-12:00", "14:00-17:00"]
+          - day: quarta-feira
+            slots: ["10:00-12:00"]
+      - name: Pedro Lima
+        availability:
+          - day: terça-feira
+            slots: ["10:00-12:00", "15:00-17:00"]
+
+  - name: Acupuntura
+    price: 120
+    duration: 60
+    description: "A acupuntura é uma prática terapêutica originária da Medicina Tradicional Chinesa, que envolve a inserção de agulhas em pontos específicos do corpo para tratar diversas condições e promover o bem-estar. A técnica busca restaurar o equilíbrio energético do corpo, estimulando o fluxo do qi (energia vital) ao longo dos meridianos. A acupuntura é reconhecida pelo Ministério da Saúde como uma prática integrativa e complementar, e pelo Conselho Federal de Medicina como especialidade médica."
+    professionals:
+      - name: Li Wei
+        availability:
+          - day: quinta-feira
+            slots: ["10:00-11:00", "11:00-12:00"]
+      - name: Carla Mendes
+        availability:
+          - day: sexta-feira
+            slots: ["09:00-10:00", "10:00-11:00"]
+
+  - name: Rolfing
+    price: 150
+    duration: 60
+    description: "Rolfing, também conhecido como Integração Estrutural, é uma prática de terapia manual que visa reorganizar o corpo, especialmente o tecido conjuntivo (fáscia), para melhorar a postura, o movimento e o bem-estar geral."
+    professionals:
+      - name: João Silva
+        availability:
+          - day: segunda-feira
+            slots: ["09:00-12:00", "14:00-17:00"]
+      - name: Maria Fernanda
+        availability:
+          - day: quarta-feira
+            slots: ["10:00-12:00", "15:00-17:00"]

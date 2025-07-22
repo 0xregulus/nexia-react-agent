@@ -1,0 +1,46 @@
+# LangChain ecosystem
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-openai==0.3.27
+langchain-community==0.3.27
+langchain-text-splitters==0.3.8
+
+# LangGraph ecosystem
+langgraph==0.5.2
+langgraph-sdk==0.1.72
+langgraph-prebuilt==0.5.2
+langgraph-checkpoint==2.1.0
+
+# OpenAI
+openai==1.86.0
+
+# Google API for Calendar
+google-api-python-client==2.127.0
+google-auth==2.29.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+
+# HTTP and utilities
+requests==2.31.0
+httplib2==0.22.0
+
+# Streamlit
+streamlit==1.35.0
+
+# AIogram
+aiogram==3.2.0
+
+# YAML parsing
+pyyaml==6.0.1
+
+# Language detection
+langdetect==1.0.9
+
+# Datetime management
+pendulum==3.0.0
+
+# Others
+xxhash==3.5.0
+pydantic==2.7.4
+pytest
+unidecode
